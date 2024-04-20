@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/appbgchem"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/heading"
+        android:layout_width="360dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginTop="44dp"
+        android:layout_marginRight="28dp"
+        android:background="#393939"
+        android:text="ChemClimax"
+        android:textColor="#01CBC7"
+        android:textSize="160px"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/element1text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="170dp"
+        android:background="#393939"
+        android:text="Select 1st Element: "
+        android:textColor="#f5f5ff"
+        android:textSize="50px" />
+
+    <TextView
+        android:id="@+id/elem1"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="300dp"
+        android:background="#393939"
+        android:hint="Selection 1"
+        android:textColor="#f5f5ff"
+        android:textSize="45px" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/element2text"
+        android:text="Select 2nd Element: "
+        android:textColor="#f5f5ff"
+        android:textSize="50px"
+        android:background="#393939"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="350dp"/>
+
+    <TextView
+        android:id="@+id/elem2"
+        android:layout_width="200dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="500dp"
+        android:background="#393939"
+        android:hint="Selection 2"
+        android:textSize="45px" />
+
+    <Spinner
+        android:id="@+id/elements1"
+        android:layout_width="260dp"
+        android:layout_height="33dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="250dp"
+        android:background="#f5f5ff"
+        android:hint="Select Element" />
+
+    <Spinner
+        android:layout_width="260dp"
+        android:layout_height="33dp"
+        android:id="@+id/elements2"
+        android:background="#f5f5ff"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="450dp"
+        android:hint="Select Element" />
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="140dp"
+        android:layout_marginTop="555dp"
+        android:background="#01CAC6"
+        android:text="Combine"
+        android:textSize="40px" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="370dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="620dp"
+        android:background="#393939"
+        android:textColor="#01C5A6"
+        android:textSize="50px" />
+
+
+</RelativeLayout>
